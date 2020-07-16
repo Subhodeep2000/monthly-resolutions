@@ -1,0 +1,107 @@
+/* 
+Project Name: Monthly Resolutions
+Client: One Month
+Author: Subhodeep Kundu| @Subhodeep
+*/
+
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+.tagline{
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+.clear {
+	clear: both;
+}
+.margin-images{
+	margin-left:75px;
+}
+h1{
+  font-size:55px;
+  margin-bottom: 10px;
+  letter-spacing: -5px;
+}
+
+h2{
+  font-size:32px;
+  margin:0;
+}
+
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+blockquote{
+
+	border-left:5px #BBB solid;
+  font-style:italic;
+  padding-left:10px;
+  margin-left:0;
+}
+body {
+ background: url('../images/notebook.png'); /* add a fallback color of #d6d6d6 */
+ color: #000000;
+ font-family: 'Lato', sans-serif;
+ line-height: 1.7; /* line-height is unit-less */
+ font-size: 100%;
+}  
+#container{
+
+	width:950px;
+margin: 0 auto 0 auto;
+
+}
+#header{
+padding:0px;
+}
+#main{
+  padding:20px;
+  margin-right:10px;
+  width :600px;
+  background:white;
+  float:left;
+  font-size:12px;
+}
+
+
+#sidebar{
+	background:white;
+	 width:340px;
+    padding:25px;
+    float:left;
+    border-left: 2.5px solid #b0ada4;
+    border-bottom: 2.5px solid #b0ada4;
+
+   
+}
+#footer{
+
+}
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+a{
+	color :red;
+   font-weight:bold;
+	text-decoration: none;
+
+}
+h2{
+	margin:0px;
+}
+blockquote{
+	border-left:5px solid #c2beb2;
+}
+
+.Silvercolor{
+	color : Silver;
+}
